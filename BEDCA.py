@@ -1,4 +1,4 @@
-# importing relevant packages
+# Importing relevant packages
 import math
 import numpy as np
 import pandas as pd
@@ -230,7 +230,7 @@ class Belief_Decoder(tf.keras.Model):
 
     self.dnn = tf.keras.layers.Dense(
         units = 1024, activation = 'relu'
-    ) #input_shape = (1, 392),
+    )
 
     self.dnn2 = tf.keras.layers.Dense(
         units = 256, activation = 'relu'
