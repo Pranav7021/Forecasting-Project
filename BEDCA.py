@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Pranav Pathak
+
 # Importing relevant packages
 import math
 import numpy as np
